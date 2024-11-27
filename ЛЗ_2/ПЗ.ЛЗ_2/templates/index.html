@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='contact.css') }}">
+    <title>Arcon</title>
+  </head>
+  <body>
+    <!--Navbar-->
+
+    <nav class="nav">
+      <div class="container">
+        <div class="logo">
+          <a href="#">Arcon</a>
+        </div>
+        <div id="mainListDiv" class="main_list">
+          <ul class="navlinks">
+            <li><a href="#about">About</a></li>
+            <li><a href="gal.html">Gallery</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="log.html">Sign in/up</a></li>
+          </ul>
+        </div>
+        <span class="navTrigger">
+          <i></i>
+          <i></i>
+          <i></i>
+        </span>
+      </div>
+    </nav>
+    <section class="home"></section>
+    <!--End Navbar-->
+
+    <!-- About us -->
+    <section class="Aboutus" id="about">
+      <div class="container">
+        <div class="contentLeft">
+          <div class="row">
+            <div class="imgWrapper">
+              <img
+                src="https://images.unsplash.com/photo-1687579521048-217e24217d53?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg5ODcxNzl8&ixlib=rb-4.0.3&q=85"
+                alt=""
+              />
+            </div>
+            <div class="imgWrapper">
+              <img
+                src="https://images.unsplash.com/photo-1686580546412-80e80519abd7?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg5ODcyMDN8&ixlib=rb-4.0.3&q=85"
+                alt=""
+              />
+            </div>
+            <div class="imgWrapper">
+              <img
+                src="https://images.unsplash.com/photo-1688133338995-a394ce7314e4?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg5ODcyMDN8&ixlib=rb-4.0.3&q=85"
+                alt=""
+              />
+            </div>
+            <div class="imgWrapper">
+              <img
+                src="https://images.unsplash.com/photo-1686354715732-7e4685269a25?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg5ODcyNzN8&ixlib=rb-4.0.3&q=85"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+        <div class="contentRight">
+          <div class="content">
+            <h4>Welcome To</h4>
+            <h2>About Us</h2>
+            <p>
+              the ultimate platform for showcasing your creative works! We are
+              dedicated to providing a secure and user-friendly environment
+              where you can share your artwork with the world. Whether you're an
+              aspiring artist, a seasoned professional, or simply someone with a
+              knack for creativity, we welcome you with open arms.
+            </p>
+            <a href="#">Read More...</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End About us -->
+
+    <!--TimeLine-->
+    <section class="timeline">
+      <h1>History of the creation of Arcon</h1>
+      <div class="container">
+        <div class="timeline-block timeline-block-right">
+          <div class="marker"></div>
+          <div class="timeline-content">
+            <h3>First year</h3>
+            <span>The Birth of an Idea</span>
+            <p>
+              In the first year, a team of young and ambitious developers came
+              together to create something unique and revolutionary. They spent
+              a lot of time discussing ideas and concepts, and in the end
+              Finally, the idea of "Arcon" was born - a platform that will unite
+              people Worldwide.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-block timeline-block-left">
+          <div class="marker"></div>
+          <div class="timeline-content">
+            <h3>Second year</h3>
+            <span>Development and Research</span>
+            <p>
+              In the second year, the team delved deeper into research and
+              development. They studied the market, analyzed user needs and
+              developed prototypes. There were many difficulties and failures,
+              but the team was full of determination and enthusiasm.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-block timeline-block-right">
+          <div class="marker"></div>
+          <div class="timeline-content">
+            <h3>Third year</h3>
+            <span>First Release</span>
+            <p>
+              In the third year, "Arcon" was introduced to the world. First
+              version platform was simple, but it offered unique capabilities
+              for communication and knowledge sharing. Users were delighted and
+              the platform quickly gained popularity.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-block timeline-block-left">
+          <div class="marker"></div>
+          <div class="timeline-content">
+            <h3>Fourth year</h3>
+            <span>Expansion and Optimization</span>
+            <p>
+              The fourth year was devoted to improving and expanding
+              functionality. New features have been added, design improved, and
+              optimized performance. "Arcon" has become more powerful and
+              convenient, attracting more and more users.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-block timeline-block-right">
+          <div class="marker"></div>
+          <div class="timeline-content">
+            <h3>Fifth year</h3>
+            <span>Globalization and Innovation</span>
+            <p>
+              In its fifth year, Arcon reached the global level. Platform has
+              been translated into many languages and made available to users
+              Worldwide. The team has introduced a number of innovative
+              technologies, such as artificial intelligence and blockchain to
+              make the platform is even more secure and user-friendly.
+              Legendarium has become a symbol of the global community and
+              educational revolution.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--End TimeLine-->
+
+    <hr />
+
+    <!-- Card -->
+
+    <section class="Card">
+      <h4 class="page-title">Advantages of our company</h4>
+      <div class="container">
+        <div class="card card1">
+          <div class="circle">
+            <h2>01</h2>
+          </div>
+          <div class="content">
+            <p>
+              Arcon's, dedicated to design, photography, animation and art,
+              often attract a large audience of professionals and visual art
+              enthusiasts. Posting your work on such sites allows you to convey
+              your creativity to a wide audience and attract new clients,
+              customers or fans.
+            </p>
+          </div>
+        </div>
+        <div class="card card2">
+          <div class="circle">
+            <h2>02</h2>
+          </div>
+          <div class="content">
+            <p>
+              Our platform usually provides the opportunity to interact with
+              other artists and professionals. You can receive feedback, advice
+              and ideas from peers, which helps you improve your skills and
+              develop as an artist or designer. You can also make contacts and
+              find potential partners.
+            </p>
+          </div>
+        </div>
+        <div class="card card3">
+          <div class="circle">
+            <h2>03</h2>
+          </div>
+          <div class="content">
+            <p>
+              Design and art usually provide the tools to present your work
+              professionally. You can create your profile, create a portfolio,
+              set prices for your work, and even sell it directly through the
+              platform. This simplifies the process of promoting your creativity
+              and managing your projects.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Card -->
+
+    <!--Video-->
+    <div class="video">
+      <hr />
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/KCgHDP2AOX8?si=1x3VAyZoWY2_qMTA"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+      <hr />
+    </div>
+      <!--Contact-->
+      <div class="background">
+        <div class="container">
+            <div class="screen">
+                <div class="screen-header">
+                    <div class="screen-header-left">
+                        <div class="screen-header-button close"></div>
+                        <div class="screen-header-button maximize"></div>
+                        <div class="screen-header-button minimize"></div>
+                    </div>
+                    <div class="screen-header-right">
+                        <div class="screen-header-ellipsis"></div>
+                        <div class="screen-header-ellipsis"></div>
+                        <div class="screen-header-ellipsis"></div>
+                    </div>
+                </div>
+                <div class="screen-body">
+                    <div class="screen-body-item left">
+                        <div class="app-title">
+                            <span>CONTACT</span>
+                            <span>US</span>
+                        </div>
+                        <div class="app-contact">CONTACT INFO : +62 81 314 928 595</div>
+                    </div>
+                    <div class="screen-body-item">
+                        <div class="app-form">
+                            <!-- Form Section -->
+                            <form action="/" method="POST">
+                                <div class="app-form-group">
+                                    <input class="app-form-control" name="name" placeholder="NAME" required>
+                                </div>
+                                <div class="app-form-group">
+                                    <input class="app-form-control" name="email" placeholder="EMAIL" required>
+                                </div>
+                                <div class="app-form-group">
+                                    <input class="app-form-control" name="contact_no" placeholder="CONTACT NO" required>
+                                </div>
+                                <div class="app-form-group message">
+                                    <textarea class="app-form-control" name="message" placeholder="MESSAGE" required></textarea>
+                                </div>
+                                <div class="app-form-group buttons">
+                                    <button type="reset" class="app-form-button">CANCEL</button>
+                                    <button type="submit" class="app-form-button">SEND</button>
+                                </div>
+                            </form>
+                        </div>
+
+                        {% if success_message %}
+                            <div class="alert alert-success">{{ success_message }}</div>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Последние отправки -->
+    <div class="recent-contacts">
+        <h2>Recent Messages</h2>
+        <ul>
+            {% for contact in recent_contacts %}
+                <li>
+                    <strong>{{ contact.name }}</strong> ({{ contact.email }})<br>
+                    <strong>Message:</strong> {{ contact.message }}<br>
+                    <small>Contact No: {{ contact.contact_no }}</small>
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+      <!--Contact-->
+    <!--Footer-->
+    <footer class="site-footer" id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+            <h6>About us</h6>
+            <p class="text-justify">
+              Arcon is a contemporary art gallery presenting a wide range of
+              works of art from young and talented artists to recognizable
+              masters. Our mission is to share beauty and inspiration through
+              art, creating a unique space for creative exchange and learning.
+            </p>
+          </div>
+
+          <div class="col-xs-6 col-md-3">
+            <h6></h6>
+            <ul class="footer-links">
+              <li><a href=""></a></li>
+              <li>
+                <a href=""></a>
+              </li>
+              <li>
+                <a href=""></a>
+              </li>
+              <li>
+                <a href=""></a>
+              </li>
+              <li>
+                <a href=""></a>
+              </li>
+              <li>
+                <a href=""></a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-xs-6 col-md-3">
+            <h6>Quick Links</h6>
+            <ul class="footer-links">
+              <li><a href="">About Us</a></li>
+              <li><a href="">Contact Us</a></li>
+              <li>
+                <a href="">Contribute</a>
+              </li>
+              <li>
+                <a href="">Privacy Policy</a>
+              </li>
+              <li><a href="">Sitemap</a></li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+      </div>
+
+      <div class="unique-timeline">
+        <div class="unique-container container">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-8 col-sm-6 col-xs-12">
+                <p class="copyright-text">
+                  Copyright &copy; 2023 All Rights Reserved by
+                  <a href="#">Arcon</a>.
+                </p>
+              </div>
+
+              <div class="col-md-4 col-sm-6 col-xs-12">
+                <ul class="social-icons">
+                  <li>
+                    <a class="facebook" href="#"
+                      ><i class="fa fa-facebook"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a class="twitter" href="#"
+                      ><i class="fa fa-twitter"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a class="dribbble" href="#"
+                      ><i class="fa fa-dribbble"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a class="linkedin" href="#"
+                      ><i class="fa fa-linkedin"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--End Footer-->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="{{ url_for('static', filename='fun.js') }}"></script>
+
+    <script>
+      $(window).scroll(function () {
+        if ($(document).scrollTop() > 50) {
+          $(".nav").addClass("affix");
+          console.log("OK");
+        } else {
+          $(".nav").removeClass("affix");
+        }
+      });
+    </script>
+  </body>
+</html>
