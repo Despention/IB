@@ -42,4 +42,4 @@ def index():
     return render_template('index.html', success_message=success_message, recent_contacts=recent_contacts)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port=8000)
